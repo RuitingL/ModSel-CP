@@ -239,8 +239,8 @@ def ModSelLOO_class(Mmodels, X_cal, Y_cal, x_test, y_test, alpha):
         
         RHS = np.zeros(n)
         for i in range(n):
-            mi_hat = np.where(Lscore[i,:] == np.min(Lscore[i,:]))[0]
-            RHS[i] = np.max(transform_S_all[i,mi_hat])
+            mi_hat = np.argmin(Lscore[i,:])
+            RHS[i] = transform_S_all[i,mi_hat]
         
         Q = np.sort(RHS)[k-1]
         if LHS <= Q:
