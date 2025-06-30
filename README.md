@@ -7,7 +7,7 @@ This repo provides the code for reproducing the numerical results in the paper [
 - For the experiment with the residual score, the implementation is executed using `simulations_residual.py` along with helper functions defined in `mtds_func_residual.py`. 
 - For the experiment with the rescaled residual score, the implementation is executed using `simulations_RescaledResidual.py` along with helper functions defined in `mtds_func_rescale_residual.py`.
 - For the classification experiment, the implementation is executed using `simulations_classification.py` along with helper functions defined in `mtds_func_classification.py`.
-- For the additional simulation in the Appendix D, the implementation is executed using `Residual experiment [2model example].py` along with helper functions defined in `mtds_func_residual.py`.
+- For the additional simulation in the Appendix D, the implementation is executed using `Residual experiment [2models example].py` along with helper functions defined in `mtds_func_residual.py`.
 
 ## Real data example
 
