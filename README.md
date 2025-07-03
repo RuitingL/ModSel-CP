@@ -1,6 +1,6 @@
 # ModSel-CP
 
-This repo provides the code for reproducing the numerical results in the paper [Conformal prediction after efficiency-oriented model selection](https://arxiv.org/abs/2408.07066).
+This repo provides the code for reproducing the numerical results in the paper [Conformal prediction after data-dependent model selection](https://arxiv.org/abs/2408.07066).
 
 ## Simulation
 
