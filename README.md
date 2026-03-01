@@ -1,4 +1,4 @@
-# Reproducing experiments: ModSel-CP and ModSel-CP-LOO
+# Reproduce experiments: ModSel-CP and ModSel-CP-LOO
 
 This repo provides the code for reproducing the numerical results in the paper [Conformal prediction after data-dependent model selection](https://arxiv.org/abs/2408.07066).
 
@@ -22,7 +22,7 @@ pip install -r requirements.txt
 requirements.txt                           # Dependencies
 simulations_residual.py                    # Simulation with the residual score
 simulations_RescaledResidual.py            # Simulation with the rescaled residual score
-simulations_classification.py              # Simulation of classification
+simulation_classification.py               # Simulation of classification
 Residual experiment [2models example].py   # Simulation in the Appendix D + plotting
 real_data_CQR.py                           # CQR experiment using protein dataset
 realData                                   # Folder containing protein dataset
@@ -38,7 +38,7 @@ plots for classification with standard error bar.py  # Plotting for classificati
 ## Simulation
 
 - For the experiment with the **residual score**, run `simulations_residual.py`. 
-- For the experiment with the **rescaled residual score**, run `simulations_RescaledResidual.py``.
+- For the experiment with the **rescaled residual score**, run `simulations_RescaledResidual.py`.
 - For the **classification** experiment, run `simulations_classification.py`.
 - For the additional simulation in the Appendix D, run `Residual experiment [2models example].py`.
 
@@ -49,7 +49,7 @@ plots for classification with standard error bar.py  # Plotting for classificati
 - **Script**: `real_data_CQR.py`.
 
 
-## Plotting scripts
+## Code for plotting
 
 - **Regression** results with standard error bar: `plots for regression with standard error bar.py`
 
