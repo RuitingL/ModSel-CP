@@ -1,4 +1,4 @@
-# Reproduce experiments: ModSel-CP and ModSel-CP-LOO
+# Reproducing experiments
 
 This repo provides the code for reproducing the numerical results in the paper [Conformal prediction after data-dependent model selection](https://arxiv.org/abs/2408.07066).
 
